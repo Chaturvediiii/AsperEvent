@@ -8,7 +8,7 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaDribbble } from 'react-icons/fa';
 
-  export default function() {
+  export default function Team() {
     return (
 
     <>
@@ -16,9 +16,9 @@ import { FaDribbble } from 'react-icons/fa';
         backgroundColor:'#000000',
       }}>
           {/* Section heading */}
-          <h2 className="h1-responsive font-weight-bold my-5" style={{
+          <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
         color:'#D51828',
-      }}>Our amazing team</h2>
+      }}>Our Amazing Team</h1>
           {/* Section description */}
           <p className="grey-text w-responsive mx-auto mb-5" style={{
         color:'#fff',

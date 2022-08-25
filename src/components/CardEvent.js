@@ -8,7 +8,7 @@ import {
   MDBCardGroup
 } from 'mdb-react-ui-kit';
 
-export default function App() {
+export default function Event() {
   return (
     <>
     <div className="heading">

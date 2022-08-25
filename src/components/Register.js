@@ -1,33 +1,62 @@
-import React from 'react';
-import {
-  MDBBtn,
-  MDBContainer,
-  MDBCard,
-  MDBCardBody,
-  MDBInput,
-  MDBCheckbox
-}
-from 'mdb-react-ui-kit';
+import React from 'react'
 
-function App() {
+export default function Register() {
   return (
-    <MDBContainer fluid className='d-flex align-items-center justify-content-center'>
-      <div className='mask gradient-custom-3'></div>
-      <MDBCard className='m-5' style={{maxWidth: '600px', backgroundColor:'#000000',}}>
-        <MDBCardBody className='px-5'>
-          <h2 className="text-uppercase text-center mb-5" style={{color:'#D51828',}}>Join Us</h2>
-          <MDBInput wrapperClass='mb-4' label='Your Name ' size='lg' id='form1' type='text' />
-          <MDBInput wrapperClass='mb-4' label='Your Email' size='lg' id='form2' type='email' style={{color:'#fff',}}/>
-          <MDBInput wrapperClass='mb-4' label='Password' size='lg' id='form3' type='password' style={{color:'#fff',}}/>
-          <MDBInput wrapperClass='mb-4' label='Repeat your password' size='lg' id='form4' type='password' style={{color:'#fff',}}/>
-          <div className='d-flex flex-row justify-content-center mb-4'>
-            <MDBCheckbox name='flexCheck' id='flexCheckDefault' label='I agree all statements in Terms of service' />
+    <div>
+      <section className="vh-100" style={{backgroundColor: '#000000'}}>
+        <div className="container h-100">
+          <div className="row d-flex justify-content-center align-items-center h-100">
+            <div className="col-xl-9">
+              <h1 className="text-white mb-4">Register Now</h1>
+              <div className="card" style={{borderRadius: '15px'}}>
+                <div className="card-body">
+                  <div className="row align-items-center pt-4 pb-3">
+                    <div className="col-md-3 ps-5">
+                      <h6 className="mb-0">Full name</h6>
+                    </div>
+                    <div className="col-md-9 pe-5">
+                      <input type="text" className="form-control form-control-lg" />
+                    </div>
+                  </div>
+                  <hr className="mx-n3" />
+                  <div className="row align-items-center py-3">
+                    <div className="col-md-3 ps-5">
+                      <h6 className="mb-0">Email address</h6>
+                    </div>
+                    <div className="col-md-9 pe-5">
+                      <input type="email" className="form-control form-control-lg" placeholder="example@example.com" />
+                    </div>
+                  </div>
+                  <hr className="mx-n3" />
+                  <div className="row align-items-center py-3">
+                    <div className="col-md-3 ps-5">
+                      <h6 className="mb-0">Full name</h6>
+                    </div>
+                    <div className="col-md-9 pe-5">
+                      <textarea className="form-control" rows={3} placeholder="Message sent to the employer" defaultValue={""} />
+                    </div>
+                  </div>
+                  <hr className="mx-n3" />
+                  <div className="row align-items-center py-3">
+                    <div className="col-md-3 ps-5">
+                      <h6 className="mb-0">Upload CV</h6>
+                    </div>
+                    <div className="col-md-9 pe-5">
+                      <input className="form-control form-control-lg" id="formFileLg" type="file" />
+                      <div className="small text-muted mt-2">Upload your CV/Resume or any other relevant file. Max file
+                        size 50 MB</div>
+                    </div>
+                  </div>
+                  <hr className="mx-n3" />
+                  <div className="px-5 py-4">
+                    <button type="submit" className="btn btn-primary btn-lg">Send application</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <MDBBtn className='mb-4 w-100 ' size='lg' style={{backgroundColor:'#D51828',}}>Register</MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBContainer>
-  );
+        </div>
+      </section>
+    </div>
+  )
 }
-
-export default App;

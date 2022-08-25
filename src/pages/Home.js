@@ -1,18 +1,26 @@
 import React from 'react'
-import { ReactDOM } from "react"; 
-import Navbar from "./components/Navbar";
-import Cards from "./components/Cards";
-import Event from "./components/Event";
-import Footer from "./components/Footer";
-import Team from "./components/Team";
+
+import Footer from '../components/Footer';
+import Gallery from '../components/Gallery';
+import Landing from '../components/Landing';
+import Header from '../components/Header';
+import Join from '../components/Join';
+import Team from '../components/Team';
+import Testimonials from '../components/Testimonial';
+import Carddiff from '../components/Carddiff';
+
+
 
 export default function Home() {
   return (
     <>
-       <Navbar />
+      <Header/>
+      <Landing/>
+    <Carddiff/>
+      <Gallery/>
       <Team/>
-      <Event/>
-      <Cards/>
+      <Testimonials/>
+      <Join/>
       <Footer/>
     </>
   )

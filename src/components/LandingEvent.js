@@ -1,5 +1,5 @@
 import React from 'react';
-import './Landing.css';
+import './LandingEvent.css';
 
 export default function Landing() {
   return (
@@ -7,9 +7,11 @@ export default function Landing() {
       <h1 className='my-6 py-6 text-center heading' style={{
         color:'#fff',
         
-      }}>Welcome To The Event <br/>Page Of <span style={{
+      }}>Welcome To <span style={{
         color:'#D51828'
-      }}>Asper</span></h1>
+      }}> Hackathon </span> <br/> </h1>
     </div>
   )
 }
+
+
