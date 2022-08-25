@@ -17,10 +17,7 @@ function App() {
   <Route exact path="/events" element={ <Events/>}/>
   <Route exact path="/register" element={ <Register/>}/>
 </Routes>
-    
-     
-    
-    </Router>
+</Router>
    
   );
 }
