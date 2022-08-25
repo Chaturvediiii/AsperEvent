@@ -1,8 +1,12 @@
 import React from 'react'
+import image from "./images/event.jpg";
 
 export default function GalleryEvent() {
   return (
     <>
+     <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
+        color:'#D51828',
+      }}>Preview</h1>
       {/* Modal gallery */}
       <section className>
         {/* Section: Images */}
@@ -10,7 +14,7 @@ export default function GalleryEvent() {
           <div className="row">
             <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
               <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-1.webp" className="w-100" />
+                <img src={image} className="w-100" />
                 <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
                   <div className="mask" style={{backgroundColor: 'rgba(251, 251, 251, 0.2)'}} />
                 </a>
@@ -18,7 +22,7 @@ export default function GalleryEvent() {
             </div>
             <div className="col-lg-4 mb-4 mb-lg-0">
               <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp" className="w-100" />
+                <img src={image} className="w-100" />
                 <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
                   <div className="mask" style={{backgroundColor: 'rgba(251, 251, 251, 0.2)'}} />
                 </a>
@@ -26,7 +30,7 @@ export default function GalleryEvent() {
             </div>
             <div className="col-lg-4 mb-4 mb-lg-0">
               <div className="bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
-                <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp" className="w-100" />
+                <img src={image} className="w-100" />
                 <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
                   <div className="mask" style={{backgroundColor: 'rgba(251, 251, 251, 0.2)'}} />
                 </a>

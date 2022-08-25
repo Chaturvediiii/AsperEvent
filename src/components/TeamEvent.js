@@ -3,7 +3,10 @@ import React from 'react'
 export default function TeamEvent() {
   return (
     <div>
-      <main className=" pt-4  mdb-docs-layout">
+       <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
+        color:'#D51828',
+      }}>Our Amazing Team</h1>
+      <main className=" pt-4  mdb-docs-layout text-white">
         <div className="container  px-lg-5">
           <div className="tab-content">
             <div className="tab-pane fade in show active" id="docsTabsOverview" role="tabpanel">

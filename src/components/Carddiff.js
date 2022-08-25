@@ -38,7 +38,7 @@ export default function Carddiff()  {
                     <a href="#!" className="btn" style={{
                       backgroundColor : '#D51828',
                       color : '#fff'
-                    }}>Button</a>
+                    }}>Learn More</a>
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function Carddiff()  {
                     <a href="#!" className="btn" style={{
                       backgroundColor : '#D51828',
                       color : '#fff'
-                    }}>Button</a>
+                    }}>Learn More</a>
                   </div>
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function Carddiff()  {
                     <a href="#!" className="btn" style={{
                       backgroundColor : '#D51828',
                       color : '#fff'
-                    }}>Button</a>
+                    }}>Learn More</a>
                   </div>
                 </div>
               </div>
@@ -97,93 +97,13 @@ export default function Carddiff()  {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 d-none d-lg-block">
-                <div className="card">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp" className="card-img-top" alt="Storm Clouds" />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and make up the bulk
-                      of the card's content.
-                    </p>
-                    <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                      color : '#fff'
-                    }}>Button</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 d-none d-lg-block">
-                <div className="card">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp" className="card-img-top" alt="Hot Air Balloons" />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and make up the bulk
-                      of the card's content.
-                    </p>
-                    <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                      color : '#fff'
-                    }}>Button</a>
-                  </div>
-                </div>
-              </div>
+              
+           
             </div>
           </div>
         </div>
         {/* Single item */}
-        <div className="carousel-item">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                <div className="card">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp" className="card-img-top" alt="Peaks Against the Starry Sky" />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and make up the bulk
-                      of the card's content.
-                    </p>
-                    <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                    }}>Button</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-                <div className="card">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp" className="card-img-top" alt="Bridge Over Water" />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and make up the bulk
-                      of the card's content.
-                    </p>
-                    <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                    }}>Button</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-                <div className="card">
-                  <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp" className="card-img-top" alt="Purbeck Heritage Coast" />
-                  <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and make up the bulk
-                      of the card's content.
-                    </p>
-                    <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                    }}>Button</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+   
       </div>
       {/* Inner */}
     </div>
