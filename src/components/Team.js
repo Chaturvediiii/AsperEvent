@@ -19,12 +19,7 @@ import { FaDribbble } from 'react-icons/fa';
           <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
         color:'#D51828',
       }}>Our Amazing Team</h1>
-          {/* Section description */}
-          <p className="grey-text w-responsive mx-auto mb-5" style={{
-        color:'#fff',
-      }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a
-            pariatur veniam.</p>
+
           {/* Grid row */}
           <div className="row text-center">
             {/* Grid column */}
@@ -32,12 +27,8 @@ import { FaDribbble } from 'react-icons/fa';
               <div className="avatar mx-auto">
                 <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).webp" className="rounded z-depth-1-half" alt="Sample avatar" />
               </div>
-              <h4 className="font-weight-bold dark-grey-text my-4" style={{
-        color:'#fff',
-      }}>Maria Kate</h4>
-              <h6 className="text-uppercase grey-text mb-3" style={{
-        color:'#D51828',
-      }}><strong>Photographer</strong></h6>
+              <h4 className="font-weight-bold dark-grey-text my-4" style={{color: '#d51828', fontWeight: 700, }}>Maria Kate</h4>
+              <h6 className="text-uppercase text-light mb-3"><strong>Photographer</strong></h6>
               {/* mdbIconcebook*/}
               <a type="button" className="btn-floating btn-sm mx-1 mb-0 btn-fb waves-effect waves-light" style={{
                 color: '#fff',
@@ -63,12 +54,8 @@ import { FaDribbble } from 'react-icons/fa';
               <div className="avatar mx-auto">
                 <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(27).webp" className="rounded z-depth-1-half" alt="Sample avatar" />
               </div>
-              <h4 className="font-weight-bold dark-grey-text my-4" style={{
-        color:'#fff',
-      }}>John Doe</h4>
-              <h6 className="text-uppercase grey-text mb-3" style={{
-        color:'#D51828',
-      }}><strong>Front-end Developer</strong></h6>
+              <h4 className="font-weight-bold dark-grey-text my-4" style={{color: '#d51828', fontWeight: 700, }}>John Doe</h4>
+              <h6 className="text-uppercase text-light mb-3"><strong>Front-end Developer</strong></h6>
               {/*Email*/}
               <a type="button" className="btn-floating btn-sm mx-1 mb-0 btn-email waves-effect waves-light" style={{
                 color: '#fff',
@@ -94,12 +81,8 @@ import { FaDribbble } from 'react-icons/fa';
               <div className="avatar mx-auto">
                 <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).webp" className="rounded z-depth-1-half" alt="Sample avatar" />
               </div>
-              <h4 className="font-weight-bold dark-grey-text my-4" style={{
-        color:'#fff',
-      }}>Sarah Melyah</h4>
-              <h6 className="text-uppercase grey-text mb-3" style={{
-        color:'#D51828',
-      }}><strong>Web Developer</strong></h6>
+              <h4 className="font-weight-bold dark-grey-text my-4" style={{color: '#d51828', fontWeight: 700, }}>Sarah Melyah</h4>
+              <h6 className="text-uppercase text-light mb-3"><strong>Web Developer</strong></h6>
               {/*Linkedin */}
               <a type="button" className="btn-floating btn-sm mx-1 mb-0 btn-li waves-effect waves-light" style={{
                 color: '#fff',

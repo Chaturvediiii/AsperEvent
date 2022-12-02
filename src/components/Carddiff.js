@@ -30,7 +30,7 @@ export default function Carddiff()  {
                 <div className="card">
                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp" className="card-img-top" alt="Waterfall" />
                   <div className="card-body">
-                    <h5 className="card-title">Hackathon</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Hackathon</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
@@ -46,7 +46,7 @@ export default function Carddiff()  {
                 <div className="card">
                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" className="card-img-top" alt="Sunset Over the Sea" />
                   <div className="card-body">
-                    <h5 className="card-title">DesignUX</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>DesignUX</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
@@ -62,7 +62,7 @@ export default function Carddiff()  {
                 <div className="card">
                   <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp" className="card-img-top" alt="Sunset over the Sea" />
                   <div className="card-body">
-                    <h5 className="card-title">Ignyte</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Ignyte</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
