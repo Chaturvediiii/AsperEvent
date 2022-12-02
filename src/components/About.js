@@ -1,12 +1,14 @@
 import React from 'react';
-
+import './About.css'
 
 export default function About()  {
   return (
 <>
-<h1 className="h1-responsive font-weight-bold my-4 text-center" style={{
+<h1 id="main-depart">Departments</h1>
+<h2 className="h1-responsive font-weight-bold my-4 text-center" style={{
   color:'#D51828',
-}}>Technical</h1>
+  fontWeight: 500,
+}}>Technical</h2>
     {/* Carousel wrapper */}
     <div id="carouselMultiItemExample" className="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
       {/* Controls */}
@@ -30,7 +32,7 @@ export default function About()  {
                 <div className="card">
                   
                   <div className="card-body">
-                    <h5 className="card-title">Web Development</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Web Development</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
@@ -46,7 +48,7 @@ export default function About()  {
                 <div className="card">
                   
                   <div className="card-body">
-                    <h5 className="card-title">App Development</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>App Development</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
@@ -62,7 +64,7 @@ export default function About()  {
                 <div className="card">
                   
                   <div className="card-body">
-                    <h5 className="card-title">Graphic Designing</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Graphic Designing</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.

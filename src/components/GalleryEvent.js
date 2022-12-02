@@ -6,6 +6,7 @@ export default function GalleryEvent() {
     <>
      <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
         color:'#D51828',
+        fontWeight:900,
       }}>Preview</h1>
       {/* Modal gallery */}
       <section className>

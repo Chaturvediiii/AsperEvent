@@ -10,20 +10,27 @@ function Header() {
     <Navbar bg="dark" expand="lg" className="text-white b-6">
       <Container className="text-white">
         <Navbar.Brand href="#home" style={{
-          color:'#D51828'
+          color:'#D51828',
+          fontWeight:900,
         }} className="fs-4">Asper</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" >
             <Link to="/" className="text-white mx-4" style={{
             textDecoration:'none',
+            color:'#D51828',
+            fontWeight:700,
           }}>Home</Link>
             <Link to="/events" className="text-white mx-4" style={{
             textDecoration:'none',
+            color:'#D51828',
+            fontWeight:700,
           }}>Events</Link>
          <Link to="/register" className="text-white mx-4" style={{
             textDecoration:'none',
-          }}>Register</Link>
+            color:'#D51828',
+            fontWeight:700,
+          }}>Contact us</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

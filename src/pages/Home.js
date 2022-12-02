@@ -17,7 +17,7 @@ export default function Home() {
       <Header/>
       <Landing/>
     <Carddiff/>
-      <Gallery/>
+      {/* <Gallery/> */}
       <Team/>
       <Testimonials/>
       <Join/>

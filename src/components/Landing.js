@@ -1,15 +1,17 @@
-import React from 'react';
-import './Landing.css';
+import React from 'react'
+import './Landing.scss'
 
-export default function Landing() {
+const Landing = () => {
   return (
-    <div className='my-6 py-6'>
-      <h1 className='my-6 py-6 text-center heading' style={{
-        color:'#fff',
-        
-      }}>Welcome To The Event <br/>Page Of <span style={{
-        color:'#D51828'
-      }}>Asper</span></h1>
-    </div>
+<div className="hero2">
+        {/*This feels like the wrong solution here :/ */}
+        <fieldset className="hero2-text">
+          <legend className="border-text">&nbsp; be impressed</legend>
+          <h3>Welcome to the Event Page of <span className='red'>Asper</span></h3>
+          <p> </p>
+          <a href="#scroll2"><button>Explore</button></a>
+        </fieldset></div>
   )
 }
+
+export default Landing

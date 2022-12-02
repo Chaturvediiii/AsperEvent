@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Gallery.css'
+import './Gallery.scss'
 
 export default function Gallery() {
   return (
@@ -9,21 +9,88 @@ export default function Gallery() {
       }}>Memories</h1>
     {/* Gallery */}
 
-    <div className="row">
-      <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" className="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp" className="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+    <div className="gallery">
+        <div className="gallery__column">
+          <a href="https://unsplash.com/@jeka_fe" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/_cvwXhGqG-o/300x300" alt="Portrait by Jessica Felicio" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Jessica Felicio</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@oladimeg" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="Portrait by Oladimeji Odunsi" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Oladimeji Odunsi</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@a2eorigins" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/VLPLo-GtrIE/300x300" alt="Portrait by Alex Perez" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Alex Perez</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div className="gallery__column">
+          <a href="https://unsplash.com/@noahbuscher" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/AR7aumwKr2s/300x300" alt="Portrait by Noah Buscher" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Noah Buscher</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@von_co" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/dnL6ZIpht2s/300x300" alt="Portrait by Ivana Cajina" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Ivana Cajina</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@samburriss" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/tV_1sC603zA/300x500" alt="Portrait by Sam Burriss" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Sam Burriss</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div className="gallery__column">
+          <a href="https://unsplash.com/@marilezhava" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="Portrait by Mari Lezhava" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Mari Lezhava</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@ethanhaddox" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="Portrait by Ethan Haddox" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Ethan Haddox</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@mr_geshani" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="Portrait by Amir Geshani" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Amir Geshani</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div className="gallery__column">
+          <a href="https://unsplash.com/@frxgui" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="Portrait by Guilian Fremaux" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Guilian Fremaux</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@majestical_jasmin" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="Portrait by Jasmin Chew" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Jasmin Chew</figcaption>
+            </figure>
+          </a>
+          <a href="https://unsplash.com/@dimadallacqua" target="_blank" className="gallery__link">
+            <figure className="gallery__thumb">
+              <img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="Portrait by Dima DallAcqua" className="gallery__image" />
+              <figcaption className="gallery__caption">Portrait by Dima DallAcqua</figcaption>
+            </figure>
+          </a>
+        </div>
       </div>
-      <div className="col-lg-4 mb-4 mb-lg-0">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp" className="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" className="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-      </div>
-      <div className="col-lg-4 mb-4 mb-lg-0">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp" className="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp" className="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-      </div>
-    </div>
-    {/* Gallery */}
     </>
   );
 }

@@ -4,9 +4,10 @@ import React from 'react';
 export default function AboutTech()  {
   return (
 <>
-<h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
+<h2 className="h1-responsive font-weight-bold my-5 text-center" style={{
   color:'#D51828',
-}}>Non-Technical</h1>
+  fontWeight: 500,
+}}>Non-Technical</h2>
     {/* Carousel wrapper */}
     <div id="carouselMultiItemExample" className="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
       {/* Controls */}
@@ -30,7 +31,7 @@ export default function AboutTech()  {
                 <div className="card">
                   
                   <div className="card-body">
-                    <h5 className="card-title">Media And Content</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Media And Content</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
@@ -46,7 +47,7 @@ export default function AboutTech()  {
                 <div className="card">
                   
                   <div className="card-body">
-                    <h5 className="card-title">Marketing And Management</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Marketing And Management</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
@@ -62,7 +63,7 @@ export default function AboutTech()  {
                 <div className="card">
                   
                   <div className="card-body">
-                    <h5 className="card-title">Graphic Designing</h5>
+                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Graphic Designing</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.

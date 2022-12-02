@@ -6,7 +6,7 @@ export default function Carddiff()  {
 <>
 <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
   color:'#D51828',
-}}>Different Events</h1>
+}}>Our Events</h1>
     {/* Carousel wrapper */}
     <div id="carouselMultiItemExample" className="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
       {/* Controls */}
