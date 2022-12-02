@@ -15,9 +15,9 @@ function Join() {
       <div className='mask gradient-custom-3'></div>
       <MDBCard className='m-5' style={{maxWidth: '600px', backgroundColor:'#000000',}}>
         <MDBCardBody className='px-5'>
-          <h1 className="text-uppercase text-center mb-5" style={{color:'#D51828',}}>Join Us</h1>
-          <MDBInput wrapperClass='mb-4' label='Your Name ' size='lg' id='form1' type='text' style={{backgrounColor:"#fff",}} />
-          <MDBInput wrapperClass='mb-4' label='Your Email' size='lg' id='form2' type='email' />
+          <h1 className="text-uppercase text-center mb-5" style={{color:'#fff',}}>Join Us</h1>
+          <MDBInput wrapperClass='mb-4' label='Your Name ' size='lg' id='form3' type='text' style={{backgrounColor:"#000",}} />
+          <MDBInput wrapperClass='mb-4' label='Your Email' size='lg' id='form3' type='email' />
           <MDBInput wrapperClass='mb-4' label='Password' size='lg' id='form3' type='password' />
           <MDBInput wrapperClass='mb-4' label='Repeat your password' size='lg' id='form4' type='password' />
           <div className='d-flex flex-row justify-content-center mb-4'>

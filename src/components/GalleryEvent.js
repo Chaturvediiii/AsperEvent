@@ -1,15 +1,15 @@
 import React from 'react'
-import image from "./images/event.jpg";
+import image from "./images/landing.jpg";
 
 export default function GalleryEvent() {
   return (
     <>
-     <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
-        color:'#D51828',
+     <h2 className="h1-responsive font-weight-bold my-5 text-center" style={{
+       color:'#fff',
         fontWeight:900,
-      }}>Preview</h1>
+      }}>Highlights</h2>
       {/* Modal gallery */}
-      <section className>
+      <section className='m-5'>
         {/* Section: Images */}
         <section className>
           <div className="row">

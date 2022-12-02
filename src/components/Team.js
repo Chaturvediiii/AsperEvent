@@ -17,7 +17,7 @@ import { FaDribbble } from 'react-icons/fa';
       }}>
           {/* Section heading */}
           <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
-        color:'#D51828',
+       color:'#fff',
       }}>Our Amazing Team</h1>
 
           {/* Grid row */}

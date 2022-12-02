@@ -4,18 +4,13 @@
     }
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .back-text{
     position: relative;
     z-index: -2000;
-}
-
-#cursor-image{
-    position: absolute;
-    display: none;
-    transform: translate(-50%, -50%);
-    cursor: none;
-    transition: all 0.1s ease;
-    z-index: -1;
 }
 
 nav{
@@ -47,7 +42,6 @@ nav{
 }
 
 .hero-wrapper{
-    cursor: none;
     margin: 0 auto;
     padding-top: 3rem;
 }

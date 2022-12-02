@@ -11,7 +11,7 @@ export default class Testimonials extends Component {
     return (
         <>
          <h1 className="h1-responsive font-weight-bold my-5 text-center"  style={{
-        color:'#D51828',
+       color:'#fff',
       }}>Testimonials</h1>
        
       <Carousel

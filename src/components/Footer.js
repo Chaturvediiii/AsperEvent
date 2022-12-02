@@ -179,7 +179,7 @@ export default function App() {
           }>Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                New York, NY 10012, US
+                UIT-RGPV, Bhopal
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />

@@ -5,7 +5,7 @@ export default function AboutTech()  {
   return (
 <>
 <h2 className="h1-responsive font-weight-bold my-5 text-center" style={{
-  color:'#D51828',
+  color:'#fff',
   fontWeight: 500,
 }}>Non-Technical</h2>
     {/* Carousel wrapper */}
@@ -28,17 +28,24 @@ export default function AboutTech()  {
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
-                <div className="card">
+                <div className="card" style={
+                {
+                  backgroundColor: '#d51828',
+                  color:'#fff',
+                  
+                }
+              }>
                   
                   <div className="card-body">
-                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Media And Content</h5>
+                    <h5 className="card-title" style={{color: '#fff', fontWeight: 700, }}>Media And Content</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
                     </p>
                     <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                      color : '#fff'
+                      backgroundColor : '#fff',
+                      color : '#d51828',
+                      fontWeight : '900'
                     }}>Apply</a>
                   </div>
                 </div>
@@ -60,18 +67,25 @@ export default function AboutTech()  {
                 </div>
               </div>
               <div className="col-lg-4 d-none d-lg-block">
-                <div className="card">
+                <div className="card" style={
+                {
+                  backgroundColor: '#d51828',
+                  color:'#fff',
+                  
+                }
+              }>
                   
                   <div className="card-body">
-                    <h5 className="card-title" style={{color: '#d51828', fontWeight: 700, }}>Graphic Designing</h5>
+                    <h5 className="card-title" style={{color: '#fff', fontWeight: 700, }}>Graphic Designing</h5>
                     <p className="card-text">
                       Some quick example text to build on the card title and make up the bulk
                       of the card's content.
                     </p>
                     <a href="#!" className="btn" style={{
-                      backgroundColor : '#D51828',
-                      color : '#fff'
-                    }}>Button</a>
+                      backgroundColor : '#fff',
+                      color : '#d51828',
+                      fontWeight : '900'
+                    }}>Apply</a>
                   </div>
                 </div>
               </div>

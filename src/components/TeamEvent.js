@@ -4,7 +4,7 @@ export default function TeamEvent() {
   return (
     <div>
        <h1 className="h1-responsive font-weight-bold my-5 text-center" style={{
-        color:'#D51828',
+        color:'#fff',
         fontWeight:900,
       }}>Our Amazing Team</h1>
       <main className=" pt-4  mdb-docs-layout text-white">
@@ -229,7 +229,7 @@ export default function TeamEvent() {
                       {/*Section: Team v.1*/}
                       <section className="section team-section">
                         {/*Section heading*/}
-                        <h1 className="fw-bold text-center my-5" style={{color: '#d51828', fontWeight: 700, }}>Co-founders</h1>
+                        <h1 className="fw-bold text-center my-5" style={{color:'#fff', fontWeight: 700, }}>Co-founders</h1>
                         {/*Grid row*/}
                         <div className="row d-flex justify-content-center text-center">
                           {/*Grid column*/}
