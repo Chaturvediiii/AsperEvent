@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/AsperEvent/static/css/main.69a80809.css",
+    "main.js": "/AsperEvent/static/js/main.318ebbb8.js",
+    "static/js/787.f3ac7016.chunk.js": "/AsperEvent/static/js/787.f3ac7016.chunk.js",
+    "static/media/landing.jpg": "/AsperEvent/static/media/landing.7f5c54abe50e8ec2264d.jpg",
+    "static/media/women.jpg": "/AsperEvent/static/media/women.eac4c0f63801912e3e42.jpg",
+    "static/media/men (2).jpg": "/AsperEvent/static/media/men (2).a86f0d76faf5493e3a85.jpg",
+    "static/media/men (1).jpg": "/AsperEvent/static/media/men (1).0d94aac1feedcfb4a56e.jpg",
+    "index.html": "/AsperEvent/index.html",
+    "main.69a80809.css.map": "/AsperEvent/static/css/main.69a80809.css.map",
+    "main.318ebbb8.js.map": "/AsperEvent/static/js/main.318ebbb8.js.map",
+    "787.f3ac7016.chunk.js.map": "/AsperEvent/static/js/787.f3ac7016.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69a80809.css",
+    "static/js/main.318ebbb8.js"
+  ]
+}
